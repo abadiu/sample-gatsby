@@ -26,10 +26,10 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "node sammy.js; gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "node sammy.js; npm run serve",
+    "start": "npm run serve",
     "serve": "gatsby serve -p ${PORT:-8080}",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
